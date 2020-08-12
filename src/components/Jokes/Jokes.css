@@ -1,0 +1,16 @@
+.Joke {
+    border-bottom: 3px solid #00897b;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px rgba(0, 137, 123, 0.5);
+    margin-bottom: 20px;
+    padding: 20px 15px 15px;
+    width: 48%;
+    transform: translateX(1000px);
+    animation: JokeAnim 0.5s forwards;
+}
+
+@keyframes JokeAnim {
+    100% {
+        transform: translateX(0);
+    }
+}
