@@ -1,0 +1,11 @@
+.MovieApp {
+    width: 600px;
+    margin: 40px auto 0;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.MovieApp-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
