@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    outline: none;
+    box-sizing: border-box;
+    color: #263238;
+}
+
+.switches {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.switches input {
+    margin-left: 20px;
+}
+
+.switches label {
+    cursor: pointer;
+}
