@@ -55,13 +55,13 @@ class MovieApp extends Component {
                     addNewMovieInList={(e) => this.addNewMovieInList(e)}
                 />
                 <h4 className="MovieApp-title">To watch list: </h4>
-                {this.state.movies.map(item => <MovieItem
+                {this.state.movies.length > 0 ? this.state.movies.map(item => <MovieItem
                     key={item.id}
                     name={item.name}
                     duration={duration += 0.2}
                     change={(e) => this.onChangeNameMovie(e, item.id)}
                     remove={() => this.removeMovie(item.id)}
-                />)}
+                />) : <p style={{textAlign: 'center'}}>The list is empty</p>}
             </div>
         );
     }
